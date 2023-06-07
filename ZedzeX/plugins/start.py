@@ -87,7 +87,7 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/unique_chat_world) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/maharashtra_majha_01) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                     else:
                         msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** played {count} times**\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
@@ -137,7 +137,7 @@ async def start_comm(client, message: Message, _):
                 )
             return
         if name[0:3] == "inf":
-            m = await message.reply_text("🔎")
+            m = await message.reply_text("🪄")
             query = (str(name)).replace("info_", "", 1)
             query = f"https://www.youtube.com/watch?v={query}"
             results = VideosSearch(query, limit=1)
@@ -169,10 +169,10 @@ async def start_comm(client, message: Message, _):
                 [
                     [
                         InlineKeyboardButton(
-                            text="𝗬𝗼𝘂𝗧𝘂𝗯𝗲", url=f"{link}"
+                            text="✨ʏᴏᴜᴛᴜʙᴇ✨", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url="https://t.me/unique_chat_world"
+                            text="✨ᴤᴜᴘᴘᴏʀᴛ✨", url="https://t.me/maharashtra_majha_01"
                         ),
                     ],
                 ]
