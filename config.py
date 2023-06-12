@@ -41,7 +41,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/lover_jerry_XD")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/maharashtra_majha_01")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/its_maharashtra_public")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "5000"))
