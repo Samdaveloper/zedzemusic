@@ -492,7 +492,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
            InlineKeyboardButton(
-                text="★ ᴄʜᴀᴛ ɢʀᴏᴜᴘ ★", url="https://t.me/unique_chat_world"
+                text="★ ᴄʜᴀᴛ ɢʀᴏᴜᴘ ★", url="https://t.me/its_maharashtra_public"
             ),
         ],
          [
@@ -543,7 +543,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="★ ᴄʜᴀᴛ ɢʀᴏᴜᴘ ★", url="https://t.me/maharashtra_majha_01"
+                text="★ ᴄʜᴀᴛ ɢʀᴏᴜᴘ ★", url="https://t.me/its_maharashtra_public"
             ),
         ],
          [
@@ -591,7 +591,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="★ ᴄʜᴀᴛ ɢʀᴏᴜᴘ ★", url="https://t.me/maharashtra_majha_01"
+                text="★ ᴄʜᴀᴛ ɢʀᴏᴜᴘ ★", url="https://t.me/its_maharashtra_public"
             ),
         ],
          [
@@ -637,7 +637,7 @@ def track_markup(_,chat_id, videoid, user_id, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="★ ᴄʜᴀᴛ ɢʀᴏᴜᴘ ★", url="https://t.me/maharashtra_majha_01"
+                text="★ ᴄʜᴀᴛ ɢʀᴏᴜᴘ ★", url="https://t.me/its_maharashtra_public"
             ),
         ],
         [
@@ -678,7 +678,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="★ ᴄʜᴀᴛ ɢʀᴏᴜᴘ ★", url="https://t.me/maharashtra_majha_01"
+                text="★ ᴄʜᴀᴛ ɢʀᴏᴜᴘ ★", url="https://t.me/its_maharashtra_public"
             ),
         ],
         [
@@ -825,7 +825,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="★ ᴄʜᴀᴛ ɢʀᴏᴜᴘ ★", url="https://t.me/maharashtra_majha_01"
+                text="★ ᴄʜᴀᴛ ɢʀᴏᴜᴘ ★", url="https://t.me/its_maharashtra_public"
             ),
         ],
          [
